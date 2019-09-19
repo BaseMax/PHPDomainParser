@@ -13,3 +13,5 @@ $allowed=[
 	'yahoo.com'
 	'*.yahoo.com',
 ];
+$input='panel.google.com';
+var_dump(check($allowed,$input));
